@@ -6,7 +6,7 @@ from sense_and_click import click_with
 
 import PySimpleGUI as sg
 
-layout = [[sg.Text("Press autoclick and set mouse at location where you want to click")],
+layout = [[sg.Text("1.) Enter values \n2.) Press autoclick\n3.) Set mouse at location where you want to click")],
 [sg.Text("Clicks"),sg.In(size=(5, 1), enable_events=True, key="-CLICKS-")
 ,sg.Text("Speed (0-1)"),sg.In(size=(5, 1), enable_events=True, key="-SPEED-")],
  [sg.Button("Autoclick")],[sg.Button("Close")]
