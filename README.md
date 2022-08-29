@@ -1,4 +1,5 @@
-## Autoclicker that reads user input and clicks a certain amount of clicks 
+## Autoclicker 
+#### Reads user input and clicks a certain amount of times
 
 Packages that need to be imported are:
 - mouse
